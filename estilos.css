@@ -1,0 +1,26 @@
+/*BORDER RADIUS PARA CADA ESQUINA
+->border-top-left-radius
+-->border-top-right-radius
+-->border-bottom-left-radius
+-->border-borttom.right-radius
+
+NOTACION ACORTADA
+-->border-radiusss
+*/
+
+.caja{
+    border:3px dashed blue;
+    padding: 10px;
+    background-color: aqua;
+    margin: 70px auto;
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    /*version corta del uso de border bottom radius*/
+    border-radius: 100px;
+}
+
